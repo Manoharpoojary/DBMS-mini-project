@@ -1,0 +1,21 @@
+{
+  "name": "dbmsproject",
+  "version": "1.0.0",
+  "description": "a project for dbms lab",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js "
+  },
+  "author": "Manohar and Prasad",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "prettier": "^3.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,25 @@
+# Ignore dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Ignore compiled or generated files
+coverage/
+*.log
+
+# Public / static files
+public/*
